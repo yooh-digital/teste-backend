@@ -18,7 +18,7 @@ Usando as tecnologias de sua escolha (PHP/Ruby, framework é opcional), criaçã
 * Comente o código, quando necessário, para explicar a intenção de trechos complexos;
 * Não se preocupe com o frontend, mas monte o HTML "conscientemente";
 * Inclua o dump do banco no projeto;
-* Não se preocupe caso não consiga
+* Não se preocupe caso não consiga terminar o projeto no tempo. Nos envie como ele ficou mesmo que incompleto, a completude é importante mas não é o principal que será avaliado.
 
 ## Extra:
 - Caso tenha conhecimento em `Git`, indicamos criar um fork do projeto e nos enviar para uma melhor avaliação;
