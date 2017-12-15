@@ -1,7 +1,7 @@
 # TESTE DE BACK-END
 
 ## Descrição:
-Usando as tecnologias de sua escolha (PHP/Ruby, framework é opcional), criação de um mini blog com gerenciamento por um CMS:
+Usando as tecnologias de sua escolha (PHP/Ruby, framework é opcional), crie um mini blog com gerenciamento por um CMS:
 
 - o CMS deve ser restrito. deve haver uma tabela com usuários e senhas para permitir a autenticação (não é necessário se preocupar com o gereciamento dos usuários)
 - Não devem ser usadas funcionalidades para geração de código, como scaffold, etc.;
@@ -10,6 +10,7 @@ Usando as tecnologias de sua escolha (PHP/Ruby, framework é opcional), criaçã
 - O título deve ter um link para a página de exibição;
 - A página de exibição do post deve ter o título, o conteúdo completo do post, um formulário com os campos nome, email e texto (para submissão de comentários) e uma lista dos comentários que esse post possui;
 - Na submissão de comentário, os campos "nome", "email" e "texto" não podem ser submetidos vazios; "email" deve ser um email válido e "texto" deve ter no mínimo 3 caracteres.
+- Quesitos de segurança como sql injection, senhas em texto plano, filtro de input dos usuários etc devem ser observados;
 
 ## Orientações:
 - Caso não tenha familiaridade com o `git`, você pode baixar e nos enviar um `zip` com o nome da pasta sendo `teste-seunome` por email `contato@yooh.com.br`;
