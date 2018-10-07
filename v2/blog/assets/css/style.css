@@ -1,0 +1,54 @@
+body{
+	color:#707070;
+}
+
+.topo{
+	height:160px;	
+	background-size:cover;
+	padding-top: 60px;
+}
+
+.titulo-container{	
+	background-color: rgba(255, 255, 255, 0.8);
+	background:linear-gradient( to right, transparent, #FFF, transparent );	
+	height: 70px;		
+	font-weight: bold;	
+}
+
+.titulo-style{
+	text-align: center;	
+	font-weight: bold;
+	font-size:30px;	
+	line-height: 70px;
+}
+
+.pagination-style{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.postagem-content{
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+.comentarios-empty{
+	height:200px;
+	text-align: center;
+}
+
+.comentarios-empty h3{
+	margin-bottom: 50px;
+}
+
+.fa-bullhorn{
+	font-size:40px;
+}
+
+#alert-nome, #alert-email, #alert-comentario{
+	color:#FF0000;
+	font-weight: bold;
+	display:none;
+}

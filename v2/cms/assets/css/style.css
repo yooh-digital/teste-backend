@@ -1,0 +1,154 @@
+body{
+	color:#707070;
+}
+
+/* login styles */
+
+.login-form{
+	background-color:#FFF;
+	margin:auto;
+	margin-top:8%;
+	width:420px;
+	padding:20px;
+	box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+	border-radius:5px;
+	min-height: 400px;
+}
+
+#login button{
+	width:100%;
+}
+
+.form-group span{
+	color:#337ab7;
+}
+
+/* home styles */
+
+.topo{
+	font-weight: bold
+}
+
+.topo li{
+	font-size:18px;
+}
+
+.empty-container{	
+	width:600px;
+	height:400px;
+	margin:auto;
+	text-align: center;
+}
+
+.empty-container .fa-frown{
+	font-size:40px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.empty-container .btn{
+	width:70%;
+}
+
+.postagem-container{
+	width:600px;
+	margin:auto;
+}
+
+.postagem-container h3{
+	text-align: center;
+}
+
+.postagem-container .btn-primary{
+	width:80%;
+}
+
+input[type='file']{
+	display:none;
+}
+
+.postagem-descricao, .postagem-foto{
+	border:1px solid #ccc;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#foto-view{
+	text-align: center;
+}
+
+.postagem-submit{
+	margin-top: 30px;
+	text-align: center;
+}
+
+#alert-titulo, #alert-text, #alert-foto{
+	display:none;
+	color:#FF0000;
+	font-weight: bold;
+
+}
+
+.row-table{
+	height: 60px;	
+}
+
+.td-id, .td-actions{
+	text-align: center;
+}
+
+.td-foto{
+	width:75px;
+	height:70px;	
+}
+
+.td-titulo{
+	width:370px;
+}
+
+.td-actions{
+	width:300px;		
+}
+
+.td-actions a{
+	font-weight: bold;		
+}
+
+.btn-abrir{
+	margin-right: 30px;	
+	width:80px;
+}
+
+.btn-editar{
+	margin-right: 8px;
+}
+
+#editar-postagem .modal-lg{
+	width:90%;
+}
+
+.painel-edit, .foto-update{
+	min-height: 415px;
+}
+
+@media only screen and (max-width: 500px){
+
+	.foto-update img{
+		width:290px;
+		height: 220px;
+	}
+
+}
+
+#foto-submit{
+	display:none;
+}
+
+.ui-widget-header{
+	background-color: #d43f3a;
+}
+
+#dialog-excluir{
+	display: none;
+}
